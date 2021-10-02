@@ -1,0 +1,720 @@
+2021-10-01 19:02:22,620:INFO:Initializing load_model()
+2021-10-01 19:02:22,620:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:12:34,935:INFO:Initializing load_model()
+2021-10-01 19:12:34,935:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:13:49,772:INFO:Initializing load_model()
+2021-10-01 19:13:49,777:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:13:59,064:INFO:Initializing load_model()
+2021-10-01 19:13:59,065:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:14:12,219:INFO:Initializing load_model()
+2021-10-01 19:14:12,219:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:14:15,710:INFO:Initializing load_model()
+2021-10-01 19:14:15,711:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:14:59,607:INFO:Initializing load_model()
+2021-10-01 19:14:59,607:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:16:15,604:INFO:Initializing load_model()
+2021-10-01 19:16:15,605:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:16:31,079:INFO:Initializing load_model()
+2021-10-01 19:16:31,080:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:16:37,527:INFO:Initializing load_model()
+2021-10-01 19:16:37,527:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:16:42,193:INFO:Initializing load_model()
+2021-10-01 19:16:42,195:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:16:46,235:INFO:Initializing load_model()
+2021-10-01 19:16:46,236:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:16:50,702:INFO:Initializing load_model()
+2021-10-01 19:16:50,703:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:16:54,208:INFO:Initializing load_model()
+2021-10-01 19:16:54,211:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:16:56,144:INFO:Initializing load_model()
+2021-10-01 19:16:56,145:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:17:03,480:INFO:Initializing load_model()
+2021-10-01 19:17:03,481:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:17:10,802:INFO:Initializing load_model()
+2021-10-01 19:17:10,803:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:17:30,912:INFO:Initializing load_model()
+2021-10-01 19:17:30,912:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:17:35,432:INFO:Initializing load_model()
+2021-10-01 19:17:35,433:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:17:35,653:INFO:Initializing predict_model()
+2021-10-01 19:17:35,654:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['OFICINA'],
+                                      ml_usecase='classification',
+                                      target='Indicador_Mora')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(re...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             subclass='binary', target='Indicador_Mora',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 AdaBoostClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                      random_state=42),
+                                    n_estimators=100, random_state=42)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-01 19:17:35,655:INFO:Checking exceptions
+2021-10-01 19:17:35,660:INFO:Preloading libraries
+2021-10-01 19:28:28,807:INFO:Initializing load_model()
+2021-10-01 19:28:28,807:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:28:58,630:INFO:Initializing load_model()
+2021-10-01 19:28:58,631:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:29:09,180:INFO:Initializing load_model()
+2021-10-01 19:29:09,181:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:29:11,958:INFO:Initializing load_model()
+2021-10-01 19:29:11,959:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:29:14,362:INFO:Initializing load_model()
+2021-10-01 19:29:14,363:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:29:16,735:INFO:Initializing load_model()
+2021-10-01 19:29:16,736:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:29:18,842:INFO:Initializing load_model()
+2021-10-01 19:29:18,843:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:29:21,085:INFO:Initializing load_model()
+2021-10-01 19:29:21,085:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:29:23,386:INFO:Initializing load_model()
+2021-10-01 19:29:23,387:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:29:27,315:INFO:Initializing load_model()
+2021-10-01 19:29:27,316:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:29:32,001:INFO:Initializing load_model()
+2021-10-01 19:29:32,002:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:29:34,064:INFO:Initializing load_model()
+2021-10-01 19:29:34,064:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:29:37,320:INFO:Initializing load_model()
+2021-10-01 19:29:37,320:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:29:37,542:INFO:Initializing predict_model()
+2021-10-01 19:29:37,543:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['OFICINA'],
+                                      ml_usecase='classification',
+                                      target='Indicador_Mora')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(re...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             subclass='binary', target='Indicador_Mora',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 AdaBoostClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                      random_state=42),
+                                    n_estimators=100, random_state=42)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-01 19:29:37,545:INFO:Checking exceptions
+2021-10-01 19:29:37,545:INFO:Preloading libraries
+2021-10-01 19:42:20,751:INFO:Initializing load_model()
+2021-10-01 19:42:20,766:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:43:28,253:INFO:Initializing load_model()
+2021-10-01 19:43:28,253:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:44:49,519:INFO:Initializing load_model()
+2021-10-01 19:44:49,519:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:44:59,685:INFO:Initializing load_model()
+2021-10-01 19:44:59,686:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:45:02,067:INFO:Initializing load_model()
+2021-10-01 19:45:02,068:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:45:04,358:INFO:Initializing load_model()
+2021-10-01 19:45:04,359:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:45:05,812:INFO:Initializing load_model()
+2021-10-01 19:45:05,816:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:45:08,049:INFO:Initializing load_model()
+2021-10-01 19:45:08,050:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:45:10,599:INFO:Initializing load_model()
+2021-10-01 19:45:10,599:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:45:12,589:INFO:Initializing load_model()
+2021-10-01 19:45:12,590:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:45:28,638:INFO:Initializing load_model()
+2021-10-01 19:45:28,639:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:45:32,537:INFO:Initializing load_model()
+2021-10-01 19:45:32,538:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:45:37,988:INFO:Initializing load_model()
+2021-10-01 19:45:37,989:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:45:40,314:INFO:Initializing load_model()
+2021-10-01 19:45:40,315:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:45:40,614:INFO:Initializing load_model()
+2021-10-01 19:45:40,614:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:45:40,789:INFO:Initializing predict_model()
+2021-10-01 19:45:40,789:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['OFICINA'],
+                                      ml_usecase='classification',
+                                      target='Indicador_Mora')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(re...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             subclass='binary', target='Indicador_Mora',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 AdaBoostClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                      random_state=42),
+                                    n_estimators=100, random_state=42)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-01 19:45:40,789:INFO:Checking exceptions
+2021-10-01 19:45:40,805:INFO:Preloading libraries
+2021-10-01 19:50:18,167:INFO:Initializing load_model()
+2021-10-01 19:50:18,168:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:51:17,549:INFO:Initializing load_model()
+2021-10-01 19:51:17,550:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:51:19,265:INFO:Initializing load_model()
+2021-10-01 19:51:19,267:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:51:36,152:INFO:Initializing load_model()
+2021-10-01 19:51:36,155:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:51:53,761:INFO:Initializing load_model()
+2021-10-01 19:51:53,762:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:51:56,166:INFO:Initializing load_model()
+2021-10-01 19:51:56,166:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:51:58,661:INFO:Initializing load_model()
+2021-10-01 19:51:58,662:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:52:01,717:INFO:Initializing load_model()
+2021-10-01 19:52:01,718:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:52:03,914:INFO:Initializing load_model()
+2021-10-01 19:52:03,916:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:52:06,580:INFO:Initializing load_model()
+2021-10-01 19:52:06,581:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:52:08,943:INFO:Initializing load_model()
+2021-10-01 19:52:08,944:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:52:12,284:INFO:Initializing load_model()
+2021-10-01 19:52:12,287:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:52:16,511:INFO:Initializing load_model()
+2021-10-01 19:52:16,512:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:52:20,173:INFO:Initializing load_model()
+2021-10-01 19:52:20,173:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:52:22,753:INFO:Initializing load_model()
+2021-10-01 19:52:22,759:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:52:23,104:INFO:Initializing predict_model()
+2021-10-01 19:52:23,105:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['OFICINA'],
+                                      ml_usecase='classification',
+                                      target='Indicador_Mora')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(re...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             subclass='binary', target='Indicador_Mora',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 AdaBoostClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                      random_state=42),
+                                    n_estimators=100, random_state=42)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-01 19:52:23,106:INFO:Checking exceptions
+2021-10-01 19:52:23,106:INFO:Preloading libraries
+2021-10-01 19:53:35,549:INFO:Initializing load_model()
+2021-10-01 19:53:35,549:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:54:00,401:INFO:Initializing load_model()
+2021-10-01 19:54:00,402:INFO:Initializing load_model()
+2021-10-01 19:54:00,408:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:54:00,409:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:54:01,131:INFO:Initializing load_model()
+2021-10-01 19:54:01,132:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:54:08,639:INFO:Initializing load_model()
+2021-10-01 19:54:08,639:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:54:18,611:INFO:Initializing load_model()
+2021-10-01 19:54:18,612:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:54:21,680:INFO:Initializing load_model()
+2021-10-01 19:54:21,681:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:54:24,374:INFO:Initializing load_model()
+2021-10-01 19:54:24,375:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:54:26,189:INFO:Initializing load_model()
+2021-10-01 19:54:26,190:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:54:28,811:INFO:Initializing load_model()
+2021-10-01 19:54:28,811:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:54:30,932:INFO:Initializing load_model()
+2021-10-01 19:54:30,933:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:54:33,204:INFO:Initializing load_model()
+2021-10-01 19:54:33,205:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:54:38,573:INFO:Initializing load_model()
+2021-10-01 19:54:38,576:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:54:45,528:INFO:Initializing load_model()
+2021-10-01 19:54:45,529:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:54:51,534:INFO:Initializing load_model()
+2021-10-01 19:54:51,535:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:54:54,189:INFO:Initializing load_model()
+2021-10-01 19:54:54,191:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 19:54:54,444:INFO:Initializing predict_model()
+2021-10-01 19:54:54,445:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['OFICINA'],
+                                      ml_usecase='classification',
+                                      target='Indicador_Mora')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(re...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             subclass='binary', target='Indicador_Mora',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 AdaBoostClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                      random_state=42),
+                                    n_estimators=100, random_state=42)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-01 19:54:54,448:INFO:Checking exceptions
+2021-10-01 19:54:54,449:INFO:Preloading libraries
+2021-10-01 20:00:06,057:INFO:Initializing load_model()
+2021-10-01 20:00:06,057:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:00:33,171:INFO:Initializing load_model()
+2021-10-01 20:00:33,172:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:00:43,577:INFO:Initializing load_model()
+2021-10-01 20:00:43,581:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:00:47,091:INFO:Initializing load_model()
+2021-10-01 20:00:47,093:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:00:49,941:INFO:Initializing load_model()
+2021-10-01 20:00:49,942:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:00:52,190:INFO:Initializing load_model()
+2021-10-01 20:00:52,191:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:00:55,987:INFO:Initializing load_model()
+2021-10-01 20:00:55,988:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:01:01,556:INFO:Initializing load_model()
+2021-10-01 20:01:01,557:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:01:07,315:INFO:Initializing load_model()
+2021-10-01 20:01:07,317:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:01:09,692:INFO:Initializing load_model()
+2021-10-01 20:01:09,693:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:01:10,952:INFO:Initializing load_model()
+2021-10-01 20:01:10,958:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:01:11,331:INFO:Initializing predict_model()
+2021-10-01 20:01:11,332:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['OFICINA'],
+                                      ml_usecase='classification',
+                                      target='Indicador_Mora')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(re...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             subclass='binary', target='Indicador_Mora',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 AdaBoostClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                      random_state=42),
+                                    n_estimators=100, random_state=42)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-01 20:01:11,334:INFO:Checking exceptions
+2021-10-01 20:01:11,334:INFO:Preloading libraries
+2021-10-01 20:02:10,893:INFO:Initializing load_model()
+2021-10-01 20:02:10,893:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:02:40,941:INFO:Initializing load_model()
+2021-10-01 20:02:40,941:INFO:Initializing load_model()
+2021-10-01 20:02:40,941:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:02:40,942:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:02:41,446:INFO:Initializing load_model()
+2021-10-01 20:02:41,447:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:02:48,997:INFO:Initializing load_model()
+2021-10-01 20:02:48,997:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:02:53,190:INFO:Initializing load_model()
+2021-10-01 20:02:53,190:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:02:56,411:INFO:Initializing load_model()
+2021-10-01 20:02:56,412:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:02:58,854:INFO:Initializing load_model()
+2021-10-01 20:02:58,854:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:03:00,760:INFO:Initializing load_model()
+2021-10-01 20:03:00,762:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:03:04,574:INFO:Initializing load_model()
+2021-10-01 20:03:04,574:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:03:07,740:INFO:Initializing load_model()
+2021-10-01 20:03:07,741:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:03:11,019:INFO:Initializing load_model()
+2021-10-01 20:03:11,020:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:03:17,739:INFO:Initializing load_model()
+2021-10-01 20:03:17,740:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:03:23,447:INFO:Initializing load_model()
+2021-10-01 20:03:23,448:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:03:25,707:INFO:Initializing load_model()
+2021-10-01 20:03:25,707:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:03:26,921:INFO:Initializing load_model()
+2021-10-01 20:03:26,922:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:03:27,299:INFO:Initializing predict_model()
+2021-10-01 20:03:27,300:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['OFICINA'],
+                                      ml_usecase='classification',
+                                      target='Indicador_Mora')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(re...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             subclass='binary', target='Indicador_Mora',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 AdaBoostClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                      random_state=42),
+                                    n_estimators=100, random_state=42)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-01 20:03:27,302:INFO:Checking exceptions
+2021-10-01 20:03:27,302:INFO:Preloading libraries
+2021-10-01 20:03:48,418:INFO:Initializing load_model()
+2021-10-01 20:03:48,419:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:03:48,719:INFO:Initializing load_model()
+2021-10-01 20:03:48,719:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:03:48,863:INFO:Initializing predict_model()
+2021-10-01 20:03:48,863:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['OFICINA'],
+                                      ml_usecase='classification',
+                                      target='Indicador_Mora')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(re...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             subclass='binary', target='Indicador_Mora',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 AdaBoostClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                      random_state=42),
+                                    n_estimators=100, random_state=42)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-01 20:03:48,863:INFO:Checking exceptions
+2021-10-01 20:03:48,863:INFO:Preloading libraries
+2021-10-01 20:03:57,358:INFO:Initializing load_model()
+2021-10-01 20:03:57,359:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:04:03,265:INFO:Initializing load_model()
+2021-10-01 20:04:03,266:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:04:05,904:INFO:Initializing load_model()
+2021-10-01 20:04:05,904:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:04:06,128:INFO:Initializing predict_model()
+2021-10-01 20:04:06,130:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['OFICINA'],
+                                      ml_usecase='classification',
+                                      target='Indicador_Mora')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(re...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             subclass='binary', target='Indicador_Mora',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 AdaBoostClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                      random_state=42),
+                                    n_estimators=100, random_state=42)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-01 20:04:06,134:INFO:Checking exceptions
+2021-10-01 20:04:06,136:INFO:Preloading libraries
+2021-10-01 20:04:19,137:INFO:Initializing load_model()
+2021-10-01 20:04:19,138:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:04:21,717:INFO:Initializing load_model()
+2021-10-01 20:04:21,718:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:04:21,969:INFO:Initializing predict_model()
+2021-10-01 20:04:21,970:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['OFICINA'],
+                                      ml_usecase='classification',
+                                      target='Indicador_Mora')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(re...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             subclass='binary', target='Indicador_Mora',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 AdaBoostClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                      random_state=42),
+                                    n_estimators=100, random_state=42)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-01 20:04:21,973:INFO:Checking exceptions
+2021-10-01 20:04:21,975:INFO:Preloading libraries
+2021-10-01 20:04:34,578:INFO:Initializing load_model()
+2021-10-01 20:04:34,579:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:04:38,289:INFO:Initializing load_model()
+2021-10-01 20:04:38,289:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:04:38,493:INFO:Initializing predict_model()
+2021-10-01 20:04:38,494:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['OFICINA'],
+                                      ml_usecase='classification',
+                                      target='Indicador_Mora')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(re...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             subclass='binary', target='Indicador_Mora',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 AdaBoostClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                      random_state=42),
+                                    n_estimators=100, random_state=42)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-01 20:04:38,498:INFO:Checking exceptions
+2021-10-01 20:04:38,499:INFO:Preloading libraries
+2021-10-01 20:04:47,280:INFO:Initializing load_model()
+2021-10-01 20:04:47,281:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:04:49,785:INFO:Initializing load_model()
+2021-10-01 20:04:49,785:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:04:51,734:INFO:Initializing load_model()
+2021-10-01 20:04:51,735:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:04:53,962:INFO:Initializing load_model()
+2021-10-01 20:04:53,963:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:04:57,985:INFO:Initializing load_model()
+2021-10-01 20:04:57,986:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:05:02,429:INFO:Initializing load_model()
+2021-10-01 20:05:02,430:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:05:05,714:INFO:Initializing load_model()
+2021-10-01 20:05:05,715:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:05:10,039:INFO:Initializing load_model()
+2021-10-01 20:05:10,039:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:05:12,414:INFO:Initializing load_model()
+2021-10-01 20:05:12,414:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_30092021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:05:12,656:INFO:Initializing predict_model()
+2021-10-01 20:05:12,657:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['OFICINA'],
+                                      ml_usecase='classification',
+                                      target='Indicador_Mora')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(re...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             subclass='binary', target='Indicador_Mora',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 AdaBoostClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                      random_state=42),
+                                    n_estimators=100, random_state=42)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-01 20:05:12,660:INFO:Checking exceptions
+2021-10-01 20:05:12,661:INFO:Preloading libraries
+2021-10-01 20:24:44,811:INFO:Initializing load_model()
+2021-10-01 20:24:44,811:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:25:16,980:INFO:Initializing load_model()
+2021-10-01 20:25:16,981:INFO:Initializing load_model()
+2021-10-01 20:25:16,981:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:25:16,983:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:25:31,679:INFO:Initializing load_model()
+2021-10-01 20:25:31,680:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:25:36,388:INFO:Initializing load_model()
+2021-10-01 20:25:36,390:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:25:39,101:INFO:Initializing load_model()
+2021-10-01 20:25:39,104:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:25:42,006:INFO:Initializing load_model()
+2021-10-01 20:25:42,012:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:25:44,978:INFO:Initializing load_model()
+2021-10-01 20:25:44,979:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:25:47,887:INFO:Initializing load_model()
+2021-10-01 20:25:47,888:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:25:52,121:INFO:Initializing load_model()
+2021-10-01 20:25:52,122:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:25:55,922:INFO:Initializing load_model()
+2021-10-01 20:25:55,923:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:26:02,067:INFO:Initializing load_model()
+2021-10-01 20:26:02,068:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:26:22,089:INFO:Initializing load_model()
+2021-10-01 20:26:22,089:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:26:28,973:INFO:Initializing load_model()
+2021-10-01 20:26:28,974:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:26:31,740:INFO:Initializing load_model()
+2021-10-01 20:26:31,740:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:26:32,920:INFO:Initializing predict_model()
+2021-10-01 20:26:32,921:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['OFICINA'],
+                                      ml_usecase='classification',
+                                      target='Indicador_Mora')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(re...
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             subclass='binary', target='Indicador_Mora',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=AdaBoostClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                                                            random_state=42),
+                                                                          n_estimators=100,
+                                                                          random_state=42),
+                                        cv=StratifiedKFold(n_splits=10, random_state=None, shuffle=False))]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-01 20:26:32,922:INFO:Checking exceptions
+2021-10-01 20:26:32,923:INFO:Preloading libraries
+2021-10-01 20:31:31,382:INFO:Initializing load_model()
+2021-10-01 20:31:31,393:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:31:34,326:INFO:Initializing load_model()
+2021-10-01 20:31:34,330:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:31:48,597:INFO:Initializing load_model()
+2021-10-01 20:31:48,598:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:31:52,430:INFO:Initializing load_model()
+2021-10-01 20:31:52,430:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:31:53,522:INFO:Initializing predict_model()
+2021-10-01 20:31:53,524:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['OFICINA'],
+                                      ml_usecase='classification',
+                                      target='Indicador_Mora')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(re...
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             subclass='binary', target='Indicador_Mora',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=AdaBoostClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                                                            random_state=42),
+                                                                          n_estimators=100,
+                                                                          random_state=42),
+                                        cv=StratifiedKFold(n_splits=10, random_state=None, shuffle=False))]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-01 20:31:53,526:INFO:Checking exceptions
+2021-10-01 20:31:53,527:INFO:Preloading libraries
+2021-10-01 20:32:04,609:INFO:Initializing load_model()
+2021-10-01 20:32:04,610:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:32:09,551:INFO:Initializing load_model()
+2021-10-01 20:32:09,552:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:32:12,977:INFO:Initializing load_model()
+2021-10-01 20:32:12,979:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:32:13,876:INFO:Initializing predict_model()
+2021-10-01 20:32:13,876:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['OFICINA'],
+                                      ml_usecase='classification',
+                                      target='Indicador_Mora')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(re...
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             subclass='binary', target='Indicador_Mora',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=AdaBoostClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                                                            random_state=42),
+                                                                          n_estimators=100,
+                                                                          random_state=42),
+                                        cv=StratifiedKFold(n_splits=10, random_state=None, shuffle=False))]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-01 20:32:13,884:INFO:Checking exceptions
+2021-10-01 20:32:13,885:INFO:Preloading libraries
+2021-10-01 20:40:28,986:INFO:Initializing load_model()
+2021-10-01 20:40:28,986:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:41:13,276:INFO:Initializing load_model()
+2021-10-01 20:41:13,276:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:41:30,011:INFO:Initializing load_model()
+2021-10-01 20:41:30,012:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:41:33,746:INFO:Initializing load_model()
+2021-10-01 20:41:33,746:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:41:36,285:INFO:Initializing load_model()
+2021-10-01 20:41:36,286:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:41:38,263:INFO:Initializing load_model()
+2021-10-01 20:41:38,264:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:41:42,825:INFO:Initializing load_model()
+2021-10-01 20:41:42,826:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:41:49,505:INFO:Initializing load_model()
+2021-10-01 20:41:49,506:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:41:52,470:INFO:Initializing load_model()
+2021-10-01 20:41:52,471:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:41:56,865:INFO:Initializing load_model()
+2021-10-01 20:41:56,865:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:42:08,047:INFO:Initializing load_model()
+2021-10-01 20:42:08,048:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:42:11,862:INFO:Initializing load_model()
+2021-10-01 20:42:11,862:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:42:15,749:INFO:Initializing load_model()
+2021-10-01 20:42:15,749:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-01 20:42:16,600:INFO:Initializing predict_model()
+2021-10-01 20:42:16,601:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['OFICINA'],
+                                      ml_usecase='classification',
+                                      target='Indicador_Mora')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(re...
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             subclass='binary', target='Indicador_Mora',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 CalibratedClassifierCV(base_estimator=AdaBoostClassifier(base_estimator=LogisticRegression(max_iter=1000,
+                                                                                                            random_state=42),
+                                                                          n_estimators=100,
+                                                                          random_state=42),
+                                        cv=StratifiedKFold(n_splits=10, random_state=None, shuffle=False))]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-01 20:42:16,604:INFO:Checking exceptions
+2021-10-01 20:42:16,609:INFO:Preloading libraries
+2021-10-02 08:33:46,750:INFO:Initializing load_model()
+2021-10-02 08:33:46,811:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
+2021-10-02 09:22:13,141:INFO:Initializing load_model()
+2021-10-02 09:22:13,141:INFO:load_model(model_name=C:/Users/USER/Desktop/Proyecto Riesgo de Mora DS EAFIT/boosted_lr_01102021, platform=None, authentication=None, verbose=True)
